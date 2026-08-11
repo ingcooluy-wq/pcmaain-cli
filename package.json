@@ -5,7 +5,7 @@
   "type": "commonjs",
   "main": "lib/index.js",
   "bin": {
-    "pcmaain": "./bin/pcmaain.js"
+    "pcmaain": "bin/pcmaain.js"
   },
   "files": [
     "bin",
