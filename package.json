@@ -1,0 +1,29 @@
+{
+  "name": "pcmaain-cli",
+  "version": "0.1.0",
+  "description": "CLI + MCP server para PCMA AI Notifier — opera el sistema desde terminal u OpenCode (bin: pcmaain)",
+  "type": "commonjs",
+  "main": "lib/index.js",
+  "bin": {
+    "pcmaain": "./bin/pcmaain.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "pcma",
+    "notifier",
+    "cli",
+    "mcp",
+    "gemini"
+  ],
+  "license": "MIT"
+}
